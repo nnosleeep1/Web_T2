@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        height: 70px;
+        border: 1px solid ;
+    }
+    .nav{
+        height: 70px;
+        width: 100%;
+        border: 1px solid ;
+        position: relative;
+        background-color: indianred;
+    }
+    .nav1{
+        height: 100%;
+        width: 20%;
+        border-right: 1px solid ;
+        text-align: right;
+        float: left;
+    }
+    .nav2{
+        height: 100%;
+        width: 20%;
+        border: 1px solid ;
+        float: left;
+        font-size: 20px;
+    }
+    .nav2 p{
+        color: aliceblue;
+        text-align: center;
+        } 
+    .nav3{
+        height: 100%;
+        width: 20%;
+        font-size: 20px;
+        border: 1px solid ;
+        float: left;
+    }
+    .nav3 p{
+        color: aliceblue;
+        text-align: center;
+    }
+    .nav4{
+        height: 100%;
+        width: 20%;
+        border: 1px solid ;
+        font-size: 20px;
+        float: left;
+    }
+    .nav4 p{
+        color: aliceblue;
+        text-align: center;
+    }
+    .nav5{
+        height: 70px;
+        width: 15%;
+       float: left;
+       text-align: center;
+    }
+    .section{
+        height: 800px;
+        width: 25%;
+        border: 1px solid ;
+        float: left;
+    }
+    .section .inner-menu{
+        color: #db4f4f;
+    }
+    .section  li{
+        width: 90%;
+        list-style-type: none;
+        font-size: 20px;
+        background-color: #EA9598;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 5px;
+        color: #fff;
+    }
+    .section img{
+        width: 100%;
+        height: 50%;
+        border-radius: 50%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .menu{
+        height: 800px;
+        width: 50%;
+        border: 1px solid ;
+        float: left;
+    }
+    .menu h2{
+        background-color: #EA9598;
+        color: #db4f4f;
+        text-align: center;
+    }
+    .menu a{
+        color: #db4f4f;
+    }
+    .event{
+        height: 800px;
+        width: 20%;
+        border: 1px solid ;
+        float: left;
+        background-color: black;
+    }
+    .footer{
+        height: 70px;
+        width: 100%;
+        border: 1px solid ;
+        background-color: #EA9598;
+        float: left;
+    }
+    .header h2{
+        text-align: center;
+        color: brown;
+        text-shadow: 5px 5px 5px #db4f4f;
+    }
+    .event p{
+        color: aliceblue;
+        font-size: 20px;
+    }
+    .event .p1{
+        color: aliceblue;
+        text-align: center;
+
+    }
+    .event img{
+        margin-left: 40px;
+        width: 70%;
+        height: 100px;
+    }
+    .footer p{
+        color: aliceblue;
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="header">
+        <h2>EXAMPLE CAFE MENU</h2>
+    </div>
+    <div class="nav">
+        <div class="nav1"><img src="Bai1/icons8-home-50.png" alt=""> </div>
+        <div class="nav2"><p>Starter</p></div>
+        <div class="nav3"><p>Main Courses</p></div>
+        <div class="nav4"><p>Desserts</p></div>
+        <div class="nav5">
+            <input type="text">
+            <button>Go</button>
+        </div>
+    </div>
+    <div class="section">
+        <ul class="inner-menu">
+            <li>abc</li>
+            <li>abcd</li>
+            <li>abcde</li>
+            <li>abcdef</li>
+            <li>abcdefg</li>
+        </ul>
+        <img src="Bai1/company.png" alt="">
+    </div>
+    <div class="menu">
+        <h2>Starter</h2>
+            <ul class="sub_menu">
+            <li>Chesnut and Mushroom Goujons</li>
+            <li>Goat cheese</li>
+            <li>HONEY SOY CHICKEN KEBABS</li>
+            <li>Seafood Salad</li>
+            </ul>
+            <a href="">Back to top</a>
+            <h2>Desserts</h2>
+            <ul class="sub_menu1">
+                <li>Lemon Sorbet</li>
+                <li>Chocolate Mud Pie</li>
+                <li>Pecan Pie</li>
+                <li>Selection of fine Cheeses from Around the World</li>
+
+            </ul>
+            <a href="">Back to top</a>
+            <h2>Information</h2>
+           
+
+            <form action="" class="inner-input">
+                <input type="text" name="" id="" placeholder="First Name">
+                <input type="text" name="" id="" placeholder="Last Name">
+                <br>
+                <form action="" class="inner-input">
+                    <input type="text" name="" id="" placeholder="Email">
+                    <input type="text" name="" id="" placeholder="Phone">
+                </form>
+            </form>
+
+            <form action="" class="inner-input">
+                <input type="text" name="" id="" placeholder="First Name">
+            </form>
+            <form action="" style="margin-left: 20px; margin-top: 13px;">
+                <input type="radio" style="width: 20px;">
+                <label for="">VietNam</label>
+                <input type="radio"  style="width: 20px;">
+                <label for="">Foreigner</label>
+            </form>
+            <form action="">
+                <textarea name="" id="" cols="70" rows="5" placeholder="content" style="margin-top: 20px; margin-bottom: 20px;"></textarea>
+            </form>
+            <button>Submit</button>
+                    <button>Cacel</button>
+    </div>
+    <div class="event"><p>Events</p>
+        <p class="p1">Regular Meetings</p>
+        <img src="Bai1/meeting.png" alt="">
+        <p>Host your regular team meetings or activities in the comfort of your own private room. Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work! <a href="">Read more...</a></p>
+        <p class="p1">Product Launches</p>
+        <img src="Bai1/launch.png" alt="">
+        <p>Launch your product with ease in a space that truly fits its image. Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs <a href="">Read more...</a></p>
+
+    </div>
+    <div class="footer">
+        <p>ABC Company -12345678-abccoffee@gmail.com</p>
+    </div>
+</body>
+</html>
